@@ -60,5 +60,28 @@
       "dateofbirth": 1522901343193,
       "customerimage": null
     }
-  ]
+  ],
+  "config":{
+	"name": "front-end-angular-service",
+	"profiles": [
+		"default"
+	],
+	"label": null,
+	"version": "e240abe9d9149b092b8daa9118debfd25fb979f4",
+	"state": null,
+	"propertySources": [
+		{
+			"name": "file:///Users/achmadmuzahid/Documents/emerio/alor/config-service/front-end-angular-service.properties",
+			"source": {
+				"alor.customer.url": "http://192.168.0.50:4200/api/customers"
+			}
+		},
+		{
+			"name": "file:///Users/achmadmuzahid/Documents/emerio/alor/file:./front-end-angular-service.properties",
+			"source": {
+				"alor.customer.url": "http://192.168.0.50:4200/api/customers"
+			}
+		}
+	]
+}
 }
